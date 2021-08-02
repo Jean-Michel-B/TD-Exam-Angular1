@@ -9,6 +9,13 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { CardComponent } from './card/card.component';
+import { TotalSalesComponent } from './total-sales/total-sales.component';
+import { TotalOrdersComponent } from './total-orders/total-orders.component';
+import { TotalCartsComponent } from './total-carts/total-carts.component';
+import { TotalUsersComponent } from './total-users/total-users.component';
+import { CustomersComponent } from './customers/customers.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +25,14 @@ import { HomePageComponent } from './home-page/home-page.component';
     SidebarComponent,
     DashboardComponent,
     FourOhFourComponent,
-    HomePageComponent
+    HomePageComponent,
+    CardComponent,
+    TotalSalesComponent,
+    TotalOrdersComponent,
+    TotalCartsComponent,
+    TotalUsersComponent,
+    CustomersComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
