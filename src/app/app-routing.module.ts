@@ -1,7 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: "" , component: HomePageComponent },
+  { path: "dashboard" , component: DashboardComponent },
+  { path: "not-found" , component: FourOhFourComponent },
+  { path: "**" , redirectTo: "not-found" }
+
+
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
